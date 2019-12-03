@@ -1,9 +1,7 @@
 # US States Power Generation: 
 Renewable Transition and Retail Rates
 ---
-Andrew Sternick
-
-Your Capstone project is the culmination of your time at GA. You will be tasked with developing an interesting question, collecting the data required to model that data, developing the strongest model (or models) for prediction, and communicating those findings to other data scientists and non-technical individuals. This introductory document lays out the five consitutent portions of the project and their due dates.
+Author: Andrew Sternick
 
 ### Table of Contents 
 
