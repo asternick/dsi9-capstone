@@ -1,4 +1,5 @@
-# US States Power Generation - Renewable Transition and Retail Rates
+# US States Power Generation: 
+Renewable Transition and Retail Rates
 ---
 Andrew Sternick
 
