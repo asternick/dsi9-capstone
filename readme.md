@@ -1,12 +1,24 @@
-# Capstone Project
+# US States Power Generation - Renewable Transition and Retail Rates
+---
+Andrew Sternick
 
 Your Capstone project is the culmination of your time at GA. You will be tasked with developing an interesting question, collecting the data required to model that data, developing the strongest model (or models) for prediction, and communicating those findings to other data scientists and non-technical individuals. This introductory document lays out the five consitutent portions of the project and their due dates.
 
-## Your Deliverables
+### Table of Contents 
 
-- A well-made predictive model using either structured or unstructured machine learning techniques (or other technique approved in advanced by the global instructors), as well as clean, well-written code.
-- A technical report aimed at fellow data scientists that explains your process and findings
-- A public presentation of your findings aimed at laypeople.
+* [Problem Statement](#Problem-Statement)
+* [Executive Summary](#Executive-Summary)
+* [Datasets](#Datasets)
+* [Data Dictionary](#Data-Dictionary) 
+* [US Solar Resource Map](#US-Solar-Resource-Map)
+* [Conclusion](#Conclusion)
+* [Next Steps](#Next-Steps)
+
+### Links
+* [Images](./images/)
+* [Presentation](./presentation.pdf)
+
+## Problem Statement
 
 ### **[Capstone, Part 1: Topic Proposals](./part_01/)**
 
