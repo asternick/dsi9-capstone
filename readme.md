@@ -25,11 +25,9 @@ In a time of overt hostility to climate goals at the federal level, state regula
 
 Renewable generation in the US consists of hydroelectric, wind, solar, biomass, and geothermal. The Energy Information Administration provides annual reporting of how electricity consumed at the state level (including Washington, DC) is generated, as well as average electricity rates data. We use this data to visualize each state's electricity generation and pricing profile over the entire 1990 - 2018 reporting period. Unsupervised clustering algorithms are used to gain insight into how state geography and policy have influenced generation profile. 
 
-### Data Gathering
+### Data Sources, Cleaning and Preprocessing
 
 Detailed [state generation profile data](https://www.eia.gov/electricity/data/state/) used in this project is from the Energy Information Administration. [Solar](https://www.nrel.gov/gis/solar.html) and [wind](https://www.nrel.gov/gis/wind.html) resource data is from the National Renewable Energy Laboratory.
-
-### Data Cleaning and Preprocessing
 
 EIA generation data is detailed with total MWh generated and numerous source categories. Rates data includes economic sectors as well as totals. For the purposes of this project, the data was condensed to relative generation by source, with each state's generation expressed as a fraction of 100%. One generation source we remove is pumped hydro, as it is a storage technology rather than pure generation, and energy storage is not considered in our modeling. 
 
