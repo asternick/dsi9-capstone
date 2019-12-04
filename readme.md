@@ -27,7 +27,7 @@ Renewable generation in the US consists of hydroelectric, wind, solar, biomass, 
 
 ### Data Gathering
 
-Detailed state data used in this project is from the [Energy Information Administration](https://www.eia.gov/electricity/data/state/). [Solar](https://www.nrel.gov/gis/solar.html) and [wind](https://www.nrel.gov/gis/wind.html) resource data is from the National Renewable Energy Laboratory.
+Detailed [state generation profile data](https://www.eia.gov/electricity/data/state/) used in this project is from the Energy Information Administration. [Solar](https://www.nrel.gov/gis/solar.html) and [wind](https://www.nrel.gov/gis/wind.html) resource data is from the National Renewable Energy Laboratory.
 
 ### **[Capstone, Part 3: Progress Report + Preliminary Findings](./part_03/)**
 
