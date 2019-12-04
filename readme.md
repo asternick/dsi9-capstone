@@ -19,25 +19,15 @@ Author: Andrew Sternick
 
 ## Problem Statement
 
-### **[Capstone, Part 1: Topic Proposals](./part_01/)**
+In a time of overt hostility to climate goals at the federal level, state regulation is critical to confronting the climate crisis in the US. Electricity generation produces 28% of overall US greenhouse gas emissions and the need to transition to zero-emissions generation is manifest. Fortunately, energy generation is regulated at the statel level. Numerous states have established mandates for zero-emission energy generation, but there is resistance to such targets in many states, due in part to a perceived high cost of low emissions. In this project I will explore state electricity generation profiles over the period of 1990 - 2018, during which wind and solar power emerged from niche technologies to mainstream, cost-effective forms of electricity generation. I will use unsupervised clustering algorithms to gain insight into how geography, state policy, and the cost of fuels influence the states' journey toward a sustainable electricity grid, and how that journey has impacted retail electricity rates over time.
 
-In Part 1, get started by choosing **three potential topics and problems**, describing your goals & criteria for success, potential audience(s), and identifying 1-2 potential datasets. In the field of data science, good projects are practical. Your capstone project should be manageable and affect a real world audience. This might be a domain you are familiar with, a particular interest you have, something that affects a community you are involved in, or an area that relates to a field you wish to work in.
+## Executive Summary
 
-One of the best ways to test ideas quickly is to share them with others. A good data scientist has to be comfortable discussing ideas and presenting to audiences. That's why for Part 1 of your Capstone project, you'll be preparing a lightning talk in addition to your initial notebook outlining the scope of your project.  You will present your candidate topics in a slide deck, and should be prepared to answer questions and defend your data selection(s). Presentations should take no more than 3-5 minutes.
+Renewable generation in the US consists of hydroelectric, wind, solar, biomass, and geothermal. The Energy Information Administration provides annual reporting of how electricity consumed at the state level (including Washington, DC) is generated, as well as average electricity rates data. We use this data to visualize each state's electricity generation and pricing profile over the entire 1990 - 2018 reporting period. Both K-Means and DBSCAN clustering algorithms are used to gain insight into how state geography and policy have influenced generation profile. 
 
-**The ultimate choice of topic for your capstone project is yours!** However, this is research and development work. Sometimes projects that look easy can be difficult and vice versa. It never hurts to have a second (or third) option available.
+### Data Gathering
 
-- **Goal**: Prepare a 3-5 minute lightning talk that covers three potential topics, including potential sources of data, goals, metrics and audience.
-- **Due**: TBD
-
-### **[Capstone, Part 2: Problem Statement + EDA](./part_02/)**
-
-For Part 2, provide a clear statement of the problem that you have chosen and an overview of your approach to solving that problem. Summarize your objectives, goals & success metrics, and any risks & assumptions. Outline your proposed methods and models, perform your initial EDA, and summarize the process. **Your data should be in hand by this point in the process!**
-
-**Again, your data should be in hand by this point the process!**
-
-- **Goal**: Describe your proposed approach and summarize your initial EDA in a code submission to your local instructor ([submission link](https://forms.gle/P8VK1kGDYS8FLdUD8))
-- **Due**: TBD
+Detailed state data used in this project is from the [Energy Information Administration](https://www.eia.gov/electricity/data/state/). [Solar](https://www.nrel.gov/gis/solar.html) and [wind](https://www.nrel.gov/gis/wind.html) resource data is from the National Renewable Energy Laboratory.
 
 ### **[Capstone, Part 3: Progress Report + Preliminary Findings](./part_03/)**
 
